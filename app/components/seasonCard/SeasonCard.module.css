@@ -1,0 +1,49 @@
+.cardSeasons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.1);
+    box-shadow: 0 0 10px red;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 90%;
+    background-color: black;
+    width: 90%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardSeasons:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px red;
+    text-shadow: 0 0 5px red, 0 0 10px #ff0000cc, 0 0 20px #ff000080;
+  }
+
+  .title {
+    font-family: "Nosifer", sans-serif;
+    color: red;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .descricao {
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(236, 8, 8);
+    width: 90%;
+  }
+
+  @media(max-width:375px) {
+    .cardSeasons {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }

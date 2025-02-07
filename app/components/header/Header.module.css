@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.6);
+  border-bottom: 3px solid red;
+  z-index: 1000;
+}
+
+
+.title {
+  font-family: 'Nosifer', sans-serif;
+  font-size: 2rem;
+  color: red;
+  text-shadow: 0 0 5px red, 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+@media(max-width:425px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}

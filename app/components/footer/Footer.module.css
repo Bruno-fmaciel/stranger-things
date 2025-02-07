@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+.footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  border-top: 3px solid red;
+  box-shadow: 0 -4px 8px rgba(255, 0, 0, 0.6);
+}
+
+.text {
+  font-family: 'Nosifer', sans-serif;
+  font-size: 1.2rem;
+  color: red;
+  text-shadow: 0 0 5px red, 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.5);
+}

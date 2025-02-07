@@ -1,0 +1,32 @@
+.mainContent {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.mainContentVisible {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.mainContentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 300px;
+  justify-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media(max-width:768px) {
+  .mainContentGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
